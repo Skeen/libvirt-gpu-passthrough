@@ -1,4 +1,6 @@
 # Skeen's Virtual Gaming Rack Machine
+Reference from the [Arch Linux wiki](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF/Examples#Skeen.27s_Virtual_Gaming_Rack_Machine)
+
 
 Repository is layed out as `/` on the host.
 
