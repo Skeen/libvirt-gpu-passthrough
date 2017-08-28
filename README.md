@@ -14,5 +14,5 @@ Files:
 * `usr/sbin/vfio-pci-override`: Script to support multiple identical GPUs.
 
 Additionally, these files exist (not in `/`):
-* `archwiki`: Arch wiki text.
 * `README.md`: This exact file.
+* `vminfo`: Arch wiki text, with information about the setup.
