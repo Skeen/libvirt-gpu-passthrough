@@ -14,5 +14,6 @@ Files:
 * `usr/sbin/vfio-pci-override`: Script to support multiple identical GPUs.
 
 Additionally, these files exist (not in `/`):
-* `README.md`: This exact file.
+* `iommu-groups`: IOMMU groups found on the system (found using [this](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF#Ensuring_that_the_groups_are_valid)).
+* `README.md`: The file you're reading right now.
 * `vminfo`: Arch wiki text, with information about the setup.
