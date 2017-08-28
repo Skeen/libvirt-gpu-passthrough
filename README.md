@@ -1,7 +1,10 @@
 # Skeen's Virtual Gaming Rack Machine
-Reference from the [Arch Linux wiki](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF/Examples#Skeen.27s_Virtual_Gaming_Rack_Machine)
+Reference from the [Arch Linux wiki](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF/Examples#Skeen.27s_Virtual_Gaming_Rack_Machine) based upon the [Arch Linux wiki page on GPU Passthrough](https://wiki.archlinux.org/index.php/PCI_passthrough_via_OVMF).
 
+## Usage
+This repository is not supposed to be read alone, please check above mentioned reference.
 
+## Files
 Repository is layed out as `/` on the host.
 
 Files:
