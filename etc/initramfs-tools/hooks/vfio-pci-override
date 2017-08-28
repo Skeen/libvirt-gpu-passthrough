@@ -1,0 +1,27 @@
+#!/bin/sh
+
+PREREQ=""
+
+prereqs()
+{
+    echo "$PREREQ"
+}
+
+case $1 in
+prereqs)
+    prereqs
+    exit 0
+    ;;
+esac
+
+
+
+if [ ! -x /usr/sbin/vfio-pci-override ]; then
+    exit 0
+fi
+
+. /usr/share/initramfs-tools/hook-functions
+
+copy_exec /usr/sbin/vfio-pci-override
+
+manual_add_modules vfio-pci vfio_iommu_type1
